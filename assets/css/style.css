@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-image: url(../images/mainbackground.jpg);
+    background-size: 100%;
+    background-position: 65% 35%;
+    height: 150px;
+    width: 100%;
+    text-align: right;
+}
+
+main h1{
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Tahoma, sans-serif;
+    padding-right: 50px;
+    padding-top: 50px;
+    
+}
+
+main h3{
+    color: rgb(71, 69, 69);
+    font-family: Verdana, Tahoma, sans-serif;
+    padding-right: 50px;
+}
+
+section {
+    background-color: rgb(247, 246, 246);
+}
+
+.products .product {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-left: 430px;
+    align-items: center;
+}
+
+.products .product .info {
+    padding-left: 20px;
+    font-family: Verdana,Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.products .product .info .description {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+footer { 
+    background-color: rgb(39, 38, 38);
+    text-align: center;
+    padding: 10px;
+    color: white;
+
+}
